@@ -6,9 +6,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Credentials {
-	@Id
-	@GeneratedValue
-	private long userId;
+	
 	private String username;
 	private String password;
 	
